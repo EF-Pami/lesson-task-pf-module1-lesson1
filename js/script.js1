@@ -1,0 +1,59 @@
+ console.log("this is script 1");
+
+//creating number variables//
+var interger = 9;
+var decimal = 8.5;
+
+//creating string variable//
+var weekdays =("monday-tuesday-wednesday-thursday-friday-saturday-sunday");
+
+//performing math signs//
+var add = 25+25;
+var sub = 30-25;
+var mul = 5*5;
+var div = 5/5;
+
+//performing boolean//
+var sheisgood = false;
+
+//number of characters in a string//
+var frogs =("the frogs are angry");
+var lengthofstring =frogs.length;
+console.log(lengthofstring);
+
+//performing camelcase//
+var time_Elapsed;
+var totalPrice;
+
+//Converting of string numbers to real numbers// 
+var number1 = "53";
+var number2 = "44.6";
+
+var convertedinteger = parseInt(number1);
+var convertedDecimalnumber = parseFloat(number2);
+console.log(number1);
+console.log(number2);
+
+
+//checking type of operator//
+var pet = "donkey";
+var age = 89;
+var discountApplied = true;
+var timeLeft;
+
+var typeofPet = typeof pet;
+console.log(typeofPet);
+
+var typeofAge = typeof age;
+console.log(typeofAge);
+
+var typeofDiscountApplied = typeof discountApplied;
+console.log(typeofDiscountApplied);
+
+var typeofTimeLeft = typeof timeLeft;
+console.log(typeofTimeLeft);
+
+
+
+
+
