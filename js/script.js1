@@ -53,6 +53,72 @@ console.log(typeofDiscountApplied);
 var typeofTimeLeft = typeof timeLeft;
 console.log(typeofTimeLeft);
 
+//updating heading//
+var heading =("Programming Foundations Module 1 Lesson 1");
+console.log(heading);
+
+//adding background color//
+
+var bodyelementinnerhtml = "programming Foundations Module 1 Lesson 1"
+var backgroundcolor =("lightskyblue");
+console.log(backgroundcolor);
+
+//checking if statement//
+var firstNumber = 34;
+var secondNumber = 89;
+console.log(firstNumber<secondNumber);
+
+var smallerthan =true;
+if (smallerthan === true) {
+    console.log("firstNumber is smaller than second");
+}
+
+//using if and else operators//
+var age = 11;
+var minimumAge = "13";
+console.log(age>=minimumAge);
+
+var agerequirement =false;
+if (agerequirement === false) {
+    console.log("age not accepted");
+} else {
+    console.log("age accepted");
+}
+
+//checking equality//
+var income = "11.050";
+var maximumIncome = "13.075";
+console.log(income===maximumIncome);
+
+var incomerequirement =false;
+if (incomerequirement ===false) {
+    console.log("income is less than maximumIncome");
+} else {
+    console.log("income is equal to maximumIncome");
+}
+
+//fixing codes//
+var colour = "blue";
+
+if ((colour = "orange")) {
+    console.log("This colour is a bit rubbish");
+}
+
+//using strict inequality operator//
+var selectedNumber = 11;
+var winningNumber = "15";
+console.log(selectedNumber!==winningNumber);
+
+var drawresult =true;
+if (drawresult ===true) {
+    console.log("you lose again");
+}
+
+
+
+
+
+
 
 
 
